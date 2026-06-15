@@ -23,3 +23,27 @@ const bigNumber = 2355645526546565656n
 
 const heros = ["shaktiman","ironman","superman"] //returns typeof=> 'function'
 console.log(typeof heros);
+
+
+
+//**********************************************************
+ 
+
+
+/*                  STACK(Primitive) , HEAP(Non-Primitive)*/
+let myinsta="allaboutishaan"
+
+let anotherinsta=myinsta
+anotherinsta= 'youy544'
+
+console.log(myinsta)
+console.log(anotherinsta)
+  
+let userOne={
+    email: "gupta@google.com",
+    upi: "5255@ybl"
+}
+let userTwo=userOne
+userTwo.email="Ishaan@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
