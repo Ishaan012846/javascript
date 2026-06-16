@@ -37,3 +37,5 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+// 16th june 
+// arrays can take diferent datatypes as input 
