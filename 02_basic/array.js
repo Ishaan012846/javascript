@@ -8,14 +8,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6) // add element in array 
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9) //inserted in array's start at the first position
+// myArr.shift() // removes the element added using the unshift method
 
-// console.log(myArr.includes(9));
+// console.log(myArr.includes(9)); // boolean , element there or not present
 // console.log(myArr.indexOf(3));
 
 // const newArr = myArr.join()
@@ -38,4 +38,4 @@ const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
 // 16th june 
-// arrays can take diferent datatypes as input 
+// arrays can take different datatypes as input 
